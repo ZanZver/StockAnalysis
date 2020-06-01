@@ -72,3 +72,4 @@ Program.mkProgram init update root
 #endif
 |> Program.withReactBatched "elmish-app"
 |> Program.run
+
