@@ -20,7 +20,7 @@ let root model dispatch =
       div
         [ ClassName "column is-narrow"
           Style
-            [ CSSProp.Width "170px" ] ]
+            [ CSSProp.Width "width:100%" ] ]
         [ str (sprintf "Counter value: %i" model) ]
       simpleButton "+1" Increment dispatch
       simpleButton "-1" Decrement dispatch

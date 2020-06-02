@@ -50,11 +50,11 @@ let root model dispatch =
       div
         [ ClassName "section" ]
         [ div
-            [ ClassName "container" ]
+            []
             [ div
                 [ ClassName "columns" ]
                 [ div
-                    [ ClassName "column is-3" ]
+                    [ ClassName "column is-1" ]
                     [ menu model.CurrentPage ]
                   div
                     [ ClassName "column" ]
